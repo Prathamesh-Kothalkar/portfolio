@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathamesh Kothalkar</title>
+    <link rel="icon" href="mypic.jpg" type="image/jpg">
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" href="pic1" type="image/jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="home.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-danger" href="#">Prathamesh Kothalkar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#skill">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#project">Project</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-success " data-bs-toggle="modal" data-bs-target="#show">Thought of the Day..!</button>
+            </div>
+            <div class="modal fade" id="show" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 text-success text-capitalize" id="exampleModalLabel">Thought of the Day</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="h5 text-info">“Setting goals is the first step in turning the invisible into the visible.”</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-primary " data-bs-dismiss="modal">Got it..!</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </nav>
+    <main>
+        <div class="profile">
+            <div class="container">
+            <div class="photo"></div>
+            <div class="info text-light">
+                <h3 class="text-center my-3">I am <span class="text-danger change"></span></h3>
+                <p class="h5 my-3">Welcome to my portfolio! I am a passionate and skilled student and developer, showcasing a diverse range of projects and achievements. As a dedicated student, I excel in various subjects, from Science to literature, while actively participating in extracurricular activities.</p>
+                <p class="h5 my-3">On the development front, I am a proficient coder, well-versed in multiple programming languages. I love taking on coding challenges and creating innovative solutions to complex problems.</p>
+                <p class="h5 my-3">The synergy of being both a student and a developer empowers me to approach problems with creativity and precision. I am eager to continue my journey of learning, innovation, and making a positive impact through technology. Explore my portfolio to see my accomplishments and the exciting projects I have brought to life!</p>
+            </div>
+            </div>
+        </div>
+
+        <div id="skill"class="skills my-4">
+            <h2 class="text-danger text-center fw-semibold">My Skills</h2>
+            <div class="skill ">
+                <ul>
+                    <li>Programming</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                </ul>
+
+                <ul>
+                    <li>Frontend</li>
+                    <li>JavaScript</li>
+                    <li>JQuery</li>
+                    <li>React</li>
+                </ul>
+
+                <ul>
+                    <li>Backend</li>
+                    <li>SQL</li>
+                    <li>Oracle</li>
+                    <li>MagoDb</li>
+                </ul>
+
+                <ul>
+                    <li>Other</li>
+                    <li>Communication</li>
+                    <li>Designer</li>
+                    <li>Digital Marketing</li>
+                </ul>
+
+            </div>
+        </div>
+        
+        <div class="row my-4" id="project">
+            <h2 class="text-center text-danger my-3">Projects</h2>
+            <!-- Portfolio 1 -->
+            <div class="col-md-6 col-lg-4 my-4">
+                <div class="portfolio-items bg-light p-4 shadow-lg">
+                    <a href="https://prathamesh-kothalkar.github.io/techblog/" target="_blank">
+                        <img src="p1.png" width="100%" height="100%" alt="blog-website">
+                    </a>
+                    <h5 class="fw-bolder text-uppercase text-center my-2">Blog Website</h5>
+                    <p>In this project, where I worked on a Frontend technologies to learn the development of Blogs/Wordpress .This project helped me develop my abilities to create complicated website from scratch by including features like a carousel.</p>
+                    <p class="fw-semibold">
+                        <span class="text-decoration-underline">Technologies used:</span> Html, CSS,CSS-Grid,BootStrap 5
+                    </p>
+                    <div class="d-flex justify-content-end">
+                        <a href="https://prathamesh-kothalkar.github.io/techblog/" class="text-danger text-decoration-none fw-semibold" target="_blank">View Site</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio 2 -->
+            <div class="col-md-6 col-lg-4 my-4">
+                <div class="portfolio-items bg-light p-4 shadow-lg">
+                    <a href="https://prathamesh-kothalkar.github.io/bookrocket/" target="_blank ">
+                        <img src="p2.png" width="100%" height="100%" alt="rocket">
+                    </a>
+                    <h5 class="fw-bolder text-uppercase text-center my-2">Rockets - Rockets Platform</h5>
+                    <p>This website is Rocket based project created using Frontend technologies to learn the development of  stores. This project helped me develop my abilities to create complicated website from scratch by including features the products area.</p>
+                    <p class="fw-semibold">
+                        <span class="text-decoration-underline">Technologies used:</span>Html,Css ,Flexbox,CSS-Grid
+                    </p>
+                    <div class="d-flex justify-content-end">
+                        <a href="https://prathamesh-kothalkar.github.io/bookrocket/" class="text-danger text-decoration-none fw-semibold" target="_blank ">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio 3 -->
+            <div class="col-md-6 col-lg-4 my-4">
+                <div class="portfolio-items bg-light p-4 shadow-lg">
+                    <a href="#" target="_blank">
+                        <img src="p3.png" width="100%" height="100%" alt="portfolio">
+                    </a>
+                    <h5 class="fw-bolder text-uppercase text-center my-2">Portfolio</h5>
+                    <p>In the digital age, a well-crafted portfolio website serves as a powerful tool for individuals and professionals to showcase their skills and unique personality to the world. Whether you are an artist, a developer,or any creative individual
+                    </p>
+                    <p class="fw-semibold">
+                        <span class="text-decoration-underline">Technologies used:</span> CSS-Grid, Flexbox, BootStrap, JQuery
+                    </p>
+                    <div class="d-flex justify-content-between">
+                        
+                        <a href="#" class="text-danger text-decoration-none fw-semibold" target="_blank ">View Preview</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <section class="bg-danger py-4 text-bg-danger">
+            <div class="container-fluid py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h5 class="mb-4">Let's talk?</h5>
+                        <h1 class="mb-4">I'm Available to Chat</h1>
+                        <button class="btn btn-outline-light" onclick="window.location.href='#contact'">Contact me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="contact py-4" id="contact">
+            <div class="container-lg">
+                <!-- Section Title -->
+                <div class="row justify-content-center">
+                    <!-- Connect with me title -->
+                    <div class="col-8 py-4">
+                        <section class="text-center">
+                            <h2 class="fw-bolder">Connect with me</h2>
+                        </section>
+                    </div>
+                </div>
+    
+                <!-- Section Body -->
+                <div class="row py-4">
+    
+                    <!-- Left contact seesion -->
+                    <div class="col-md-5">
+    
+                        <!-- Contact item 1 -->
+                        <div class="contact-items d-flex">
+                            
+                            <div class="text ms-3">
+                                <h4 class="fw-bold text-danger">Phone No.</h4>
+                                <p class="text-muted">+91-9021023183</p>
+                            </div>
+                        </div>
+    
+                        <!-- Contact item 2 -->
+                        <div class="contact-items d-flex">
+                            
+                            <div class="text ms-3">
+                                <h4 class="fw-bold text-danger">Email</h4>
+                                <p class="text-muted">pkothalkar9021@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Right contact seesion -->
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-lg-6 mb-4">
+                                <input type="text" class="form-control p-2 border-1 fs-6" id="exampleForControlInput" placeholder="Your Name">
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <input type="email" class="form-control p-2 border-1 fs-6" id="exampleForControlInput" placeholder="Your email">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <input type="text" class="form-control p-2 border-1 fs-6" id="exampleForControlInput" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <textarea name="Message" class="form-control p-2 border-1 fs-6" cols="30" rows="5" placeholder="Enter your message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 mb-4">
+                                <button type="button" class="btn btn-outline-danger">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="footer bg-light py-5">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+    
+                    <!-- Footer Content -->
+                    <!-- Branding col 1 -->
+                    <div class="col-lg-4 text-center">
+                        <p class="fw-bolder text-danger h4">Prathamesh Kothalkar</p>
+                    </div>
+                    <!-- Quick links col 1 -->
+                    <div class="col-lg-4 text-center">
+                        <h3 class="fw-bolder text-danger">Quick Links</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#home" class="text-decoration-none text-muted">Home</a></li>
+                            <li><a href="#skill" class="text-decoration-none text-muted">Skills</a></li>
+                            <li><a href="#project" class="text-decoration-none text-muted">Projects</a></li>
+                            <li><a href="#contact" class="text-decoration-none text-muted">Hire Me</a></li>
+                            <li><a href="#contact" class="text-decoration-none text-muted">Contact</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Social Media links col 1 -->
+                    <div class="col-lg-4 text-center">
+                        <h3 class="fw-bolder text-danger">Social Media</h3>
+                        <div class="text-center">
+                            <a href="https://in.linkedin.com/in/prathamesh-kothalkar-0b0949243" target="_blank" class="text-decoration-none text-primary fs-5 me-2">Linkedin</a>
+                            <a href="https://github.com/prathamesh-kothalkar" target="_blank" class="text-decoration-none text-primary fs-5 me-2">GitHub</a>
+                            <a href="mailto:pkothalkar9021@gmail.com" target="_blank" class=" text-decoration-none text-primary  fs-5 me-2">Mail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js">
+        </script>
+        <script>
+            const text = $(".change");
+            const ctext =()=>{
+                setTimeout(() => {
+                  text.text("Prathamesh");  
+                },0);
+
+                setTimeout(() => {
+                  text.text("Student");  
+                },4000);
+                
+                setTimeout(() => {
+                  text.text("Developer");  
+                },8000);
+            }
+            ctext();
+            setInterval(ctext,12000);
+        </script>
+</body>
+</html>
