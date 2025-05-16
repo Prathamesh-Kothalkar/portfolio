@@ -4,14 +4,14 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Prathamesh Kothalkar",
-  initials: "PK",
+  initials: "Pro",
   url: "https://www.prathamesh-kothalkar.vercel.app",
   location: "Pune, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
     "Software Developer | Full Stack Engineer | Student ",
   summary:
-    "I’m a second-year IT Engineering student with hands-on experience in full-stack development, currently interning as a Software Developer at Arevei. I’ve worked on multiple projects like e-commerce platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 170+ DSA problems and aim to crack a Google interview within a year. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like blockchain and system design.",
+    "I’m a second-year IT Engineering student with hands-on experience in full-stack development, currently interning as a Software Developer at Arevei. I’ve worked on multiple projects like e-commerce platforms using React, Next.js, Node.js, MongoDB, and MySQL. I’ve also solved over 180+ DSA problems and aim to crack a FAANG companies. Apart from coding, I enjoy participating in hackathons and continuously learning new technologies like blockchain and system design.",
   avatarUrl: "https://i.ibb.co/QksNKnW/prathamesh.jpg",
   skills: [
     "React.js",
@@ -39,7 +39,7 @@ export const DATA = {
       icon: Icons.globe,
       badges: [
         {
-          title: "170+ problems solved",
+          title: "180+ problems solved",
           variant: "secondary",
         },
       ],
@@ -57,7 +57,7 @@ export const DATA = {
     },
     {
       name: "GitHub",
-      url: "https://www.hackerrank.com/profile/prathameshkotha4",
+      url: "https://github.com/Prathamesh-Kothalkar",
       icon: Icons.globe,
       badges: [
         {
@@ -116,7 +116,7 @@ export const DATA = {
       title: "SDE Intern",
       logoUrl: "/arevei.png",
       start: "Aug 2024",
-      end: "Present",
+      end: "May 2025",
       description:
         "Contributing to the development of an e-commerce platform. Building frontend pages using React and Tailwind CSS. Developing backend functionalities using Node.js and MongoDB including cart, order, and payment systems. Implemented Razorpay integration and admin panel with dynamic slide management.",
     },
@@ -149,14 +149,14 @@ export const DATA = {
     {
       school: "Savitribai Phule Pune University",
       href: "https://unipune.ac.in",
-      degree: "B.E. in Information Technology",
+      degree: "B.E in Information Technology",
       logoUrl: "./sppu.png",
       start: "2024",
       end: "2027",
     },
     {
       school: "MSBTE - Government Polytechnic Jalgaon",
-      href: "https://msbte.org.in",
+      href: "https://gpjalgaon.ac.in/AboutInstitute.html",
       degree: "Diploma in Computer Engineering",
       logoUrl: "/diploma.jpg",
       start: "2021",
@@ -164,10 +164,39 @@ export const DATA = {
     },
   ],
   projects: [
+     {
+      title: "Collaborative Real-Time Whiteboard Application",
+      href: "https://github.com/Prathamesh-Kothalkar/realtime-whiteboard",
+      dates: "May 2025",
+      active: true,
+      description:
+        "Designed and developed a fully responsive real-time collaborative whiteboard application using React and Fabric.js, enabling multiple users to draw, annotate, and interact simultaneously.",
+      technologies: [
+        "React.js (ts)",
+        "Node.js (ts)",
+        "Socket.io",
+        "Bootstrap",
+        "Keycloak",
+        "TypeScript"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/Prathamesh-Kothalkar/realtime-whiteboard",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Video",
+          href: "https://github.com/user-attachments/assets/b2e1bbb1-ab7b-4b99-88fc-e77f687d71d5",
+          icon: <Icons.youtube className="size-3" />,
+        }
+      ],
+      image: "/whiteboard.gif",
+    },
     {
       title: "Support Desk",
       href: "https://support-desk-student.vercel.app/",
-      dates: "Apr 2025 - Present",
+      dates: "Apr 2025 - May 2025",
       active: true,
       description:
         "A student-focused support ticketing system built to streamline communication with staff members. Students can raise tickets, view ticket status, and get real-time updates. Designed with an intuitive UI and secure authentication.",
@@ -195,7 +224,7 @@ export const DATA = {
     {
       title: "Support Desk (Admin)",
       href: "https://support-desk-staff.vercel.app/",
-      dates: "Apr 2025 - Present",
+      dates: "Apr 2025 - May 2025",
       active: true,
       description:
         "An admin dashboard for managing student support tickets. Enables staff to view, respond to, and resolve tickets efficiently. Includes role-based access, ticket assignment, and system insights for improved support management.",
