@@ -172,12 +172,14 @@ export const DATA = {
       description:
         "Designed and developed a fully responsive real-time collaborative whiteboard application using React and Fabric.js, enabling multiple users to draw, annotate, and interact simultaneously.",
       technologies: [
+        "TypeScript",
         "React.js (ts)",
         "Node.js (ts)",
+        "fabric.js",
         "Socket.io",
         "Bootstrap",
         "Keycloak",
-        "TypeScript"
+        
       ],
       links: [
         {
