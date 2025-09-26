@@ -10,7 +10,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/pune",
   description:
     "Software Developer | Full Stack Engineer | Student ",
-  summary:"I’m a third-year IT Engineering student at SPPU with practical experience in full-stack and backend development. As a Software Developer Intern at Arevei, I contributed to building scalable e-commerce solutions using React, Next.js, Node.js, and MongoDB. I’ve developed and deployed several real-world applications and solved 200+ DSA problems, demonstrating strong problem-solving skills and algorithmic thinking. I’m passionate about system design, distributed systems, and building efficient, user-centric products. Currently, I’m exploring blockchain and cloud-native development, with a long-term goal of joining a high-impact engineering team at a company like Google, where innovation, scale, and learning never stop.",
+  summary:"I’m a third-year IT Engineering student at SPPU with practical experience in full-stack and backend development. As a Software Developer Intern at Arevei, I contributed to building scalable e-commerce solutions using React, Next.js, Node.js, and MongoDB. I’ve developed and deployed several real-world applications and solved 400+ DSA problems, demonstrating strong problem-solving skills and algorithmic thinking. I’m passionate about system design, distributed systems, and building efficient, user-centric products. Currently, I’m exploring blockchain and cloud-native development, with a long-term goal of joining a high-impact engineering team at a company like Google, where innovation, scale, and learning never stop.",
   avatarUrl: "https://i.ibb.co/QksNKnW/prathamesh.jpg",
   skills: [
     "Java",
