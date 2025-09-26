@@ -39,11 +39,24 @@ export const DATA = {
       icon: Icons.globe,
       badges: [
         {
-          title: "200+ problems solved",
+          title: "300+ problems solved",
           variant: "secondary",
         },
       ],
     },
+
+     {
+      name: "GeeksforGeeks",
+      url: "https://www.geeksforgeeks.org/user/pkothalk0688/",
+      icon: Icons.globe,
+      badges: [
+        {
+          title: "100+ problems solved",
+          variant: "secondary",
+        },
+      ],
+    },
+    
     {
       name: "HackerRank",
       url: "https://www.hackerrank.com/profile/prathameshkotha4",
@@ -334,6 +347,26 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+       title: "Google Cloud Gen AI Hackathon",
+  dates: "Sep 2025",
+  location: "Pune, Maharashtra",
+  description:
+    "Developed an AI-Based Marketplace for Indian artisans using Google Cloud Gen AI. Implemented features like AI-driven art recommendations, product image optimization, story-teller, SEO keyword generator etc. Leveraged Google Cloud services for scalability and performance.",
+  image: "./glogo.svg",
+  links: [
+    {
+      icon: <Icons.github/>,
+      title: "GitHub Repo",
+      href: "https://github.com/Prathamesh-Kothalkar/KalpavrikshaAI",
+    },
+     {
+      icon: <Icons.globe/>,
+      title: "Live Link",
+      href: "https://kalpavriksha-ai.vercel.app/artisans",
+    },
+  ],
+    },
     {
       title: "Intra-College Hackathon 2024",
       dates: "March 2024",
