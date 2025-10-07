@@ -96,7 +96,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "./Prathamesh_Resume_2027_SDE.pdf",
+        url: "./Prathamesh_Resume_2027.pdf",
         icon: Icons.googleDrive,
         navbar: true,
       },
