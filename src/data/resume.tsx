@@ -10,7 +10,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/pune",
   description:
     "Software Developer | Full Stack Engineer | Student ",
-  summary:"I’m a third-year IT Engineering student at SPPU with practical experience in full-stack and backend development. As a Software Developer Intern at Arevei, I contributed to building scalable e-commerce solutions using React, Next.js, Node.js, and MongoDB. I’ve developed and deployed several real-world applications and solved 400+ DSA problems, demonstrating strong problem-solving skills and algorithmic thinking. I’m passionate about system design, distributed systems, and building efficient, user-centric products. Currently, I’m exploring blockchain and cloud-native development, with a long-term goal of joining a high-impact engineering team at a company like Google, where innovation, scale, and learning never stop.",
+  summary:"I’m a Final Year IT Engineering student at SPPU with practical experience in full-stack and backend development. As a Software Developer Intern at Arevei, I contributed to building scalable e-commerce solutions using React, Next.js, Node.js, and MongoDB. I’ve developed and deployed several real-world applications and solved 650+ DSA problems, demonstrating strong problem-solving skills and algorithmic thinking. I’m passionate about system design, distributed systems, and building efficient, user-centric products. Currently, I’m exploring Distributed Systems and cloud-native development, with a long-term goal of joining a high-impact engineering team , where innovation, scale, and learning never stop.",
   avatarUrl: "https://i.ibb.co/QksNKnW/prathamesh.jpg",
   skills: [
     "Java",
@@ -39,7 +39,7 @@ export const DATA = {
       icon: Icons.globe,
       badges: [
         {
-          title: "300+ problems solved",
+          title: "650+ problems solved",
           variant: "secondary",
         },
       ],
@@ -207,6 +207,33 @@ export const DATA = {
         }
       ],
       image: "/gmc.png",
+    },
+    {
+      title: "Distributed File System with Java",
+      href: "https://github.com/Prathamesh-Kothalkar/dfs-data-node",
+      dates: "June 2026",
+      active: true,
+     description:"Developed a fault-tolerant Distributed File System modeled after GFS/HDFS using Spring Boot and Next.js, featuring decoupled master-worker streaming, in-memory metadata routing, and automated cluster replication.",
+     technologies: [
+        "Java",
+        "Spring Boot (Java 17)",
+        "Spring Web" ,
+        "Spring Scheduling",
+        "Multithreading",
+      ],
+      links: [
+        {
+          type: "GitHub (Data Node)",
+          href: "https://github.com/Prathamesh-Kothalkar/dfs-data-node",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "GitHub (Name Node)",
+          href: "https://github.com/Prathamesh-Kothalkar/dfs-name-node",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/distributed-file-system-diagram.png",
     },
      {
       title: "Collaborative Real-Time Whiteboard Application",
